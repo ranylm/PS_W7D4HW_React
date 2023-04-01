@@ -1,0 +1,8 @@
+.header {
+  padding: 1rem 2rem;
+}
+
+footer > span::before {
+  content: "\00A9";
+  color: lightgray;
+}

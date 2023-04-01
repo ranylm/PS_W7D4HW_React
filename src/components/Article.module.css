@@ -1,0 +1,33 @@
+.article {
+  position: relative;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+.article > h2 {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.article > h3 {
+  color: gray;
+}
+
+.article p::first-letter {
+  float: left;
+  font-size: 5rem;
+  font-weight: 400;
+  color: lightgray;
+}
+
+.article > span {
+  color: tomato;
+  position: absolute;
+  right: 0;
+  font-weight: 600;
+}
+
+.article > p {
+  line-height: 1.75em;
+}
