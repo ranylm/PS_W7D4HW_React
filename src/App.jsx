@@ -14,8 +14,28 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <Article img={{ img: img1, alt: "Brooklyn Street" }} />
-        <Article img={{ img: img2, alt: "Some Vogue People" }} />
+        <Article
+          img={{ img: img1, alt: "Brooklyn Street" }}
+          heading="On the Street in Broklyn"
+          date="11/12/20"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi labore,
+          fugiat, consequatur rerum itaque neque deserunt suscipit magni maxime
+          nostrum commodi libero nam tenetur nesciunt quibusdam explicabo ipsum
+          perferendis impedit? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Sequi labore, fugiat, consequatur rerum itaque neque
+          deserunt suscipit magni maxime nostrum commodi libero nam tenetur
+          nesciunt quibusdam explicabo ipsum perferendis impedit? Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Sequi labore, fugiat,
+          consequatur rerum itaque neque deserunt suscipit magni maxime nostrum
+          commodi libero nam tenetur nesciunt quibusdam explicabo ipsum
+          perferendis impedit?
+        </Article>
+        <Article
+          img={{ img: img2, alt: "Some Vogue People" }}
+          heading="Vintage in Vogue"
+          date="11/11/20"
+        />
       </main>
       <Footer />
     </div>
