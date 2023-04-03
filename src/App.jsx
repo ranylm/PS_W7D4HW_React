@@ -35,7 +35,19 @@ function App() {
           img={{ img: img2, alt: "Some Vogue People" }}
           heading="Vintage in Vogue"
           date="11/11/20"
-        />
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi labore,
+          fugiat, consequatur rerum itaque neque deserunt suscipit magni maxime
+          nostrum commodi libero nam tenetur nesciunt quibusdam explicabo ipsum
+          perferendis impedit? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Sequi labore, fugiat, consequatur rerum itaque neque
+          deserunt suscipit magni maxime nostrum commodi libero nam tenetur
+          nesciunt quibusdam explicabo ipsum perferendis impedit? Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Sequi labore, fugiat,
+          consequatur rerum itaque neque deserunt suscipit magni maxime nostrum
+          commodi libero nam tenetur nesciunt quibusdam explicabo ipsum
+          perferendis impedit?
+        </Article>
       </main>
       <Footer />
     </div>

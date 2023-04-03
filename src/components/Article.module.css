@@ -31,3 +31,8 @@
 .article > p {
   line-height: 1.75em;
 }
+
+.article > img {
+  width: 100%;
+  height: auto;
+}
