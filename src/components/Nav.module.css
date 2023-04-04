@@ -13,4 +13,5 @@
 
 .tomato > ul > li > a {
   color: tomato;
+  text-decoration: none;
 }
